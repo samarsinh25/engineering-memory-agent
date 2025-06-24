@@ -1,0 +1,14 @@
+[
+  {
+    "timestamp": "2024-06-24T11:22:00Z",
+    "host": "node-7",
+    "severity": "critical",
+    "message": "CPU spike detected. Threshold exceeded."
+  },
+  {
+    "timestamp": "2024-06-24T11:25:00Z",
+    "host": "node-3",
+    "severity": "error",
+    "message": "Nginx crash. SSL handshake failure."
+  }
+]
