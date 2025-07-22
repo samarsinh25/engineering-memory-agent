@@ -1,0 +1,6 @@
+[
+  "Nginx crash: SSL handshake failure",
+  "CPU spike detected on node-3",
+  "Kubernetes pod restart loop",
+  "Redis connection timeout"
+]

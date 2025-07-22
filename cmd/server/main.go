@@ -1,7 +1,9 @@
 package main
 
 import (
+	"engineering-memory-agent/internal/cli"
 	"github.com/joho/godotenv"
+	"github.com/spf13/cobra"
 	"log"
 )
 
@@ -12,5 +14,7 @@ func init() {
 }
 
 func main() {
-	// Your agent starts here
+	rootCmd := &cobra.Command{Use: "ema"}
+	rootCmd.AddCommand(cli.SearchCmd)
+	rootCmd.Execute()
 }
